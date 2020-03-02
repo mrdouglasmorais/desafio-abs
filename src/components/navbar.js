@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Image from 'react-bootstrap/Image'
-import Logo from "../img/startupon.svg";
+import Logo from "../img/startupon.png";
 
 function NavbarSPA() {
   return (
@@ -11,7 +11,7 @@ function NavbarSPA() {
       <Navbar.Brand href="#home">
         <Image
         src={Logo}
-        width="200px"
+        width="220px"
         height="auto"
         className="d-inline-block align-top"
         alt="Logo Startup ON"
