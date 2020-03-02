@@ -1,12 +1,13 @@
 # DESAFIO ABS
 Associação Brasileira de Startups
 REACTJS 16.13.0
+Gerenciador de pacotes YARN.
 
 Para baixar o conteudo do projeto
 [https://github.com/mrdouglasmorais/desafio-abs](https://github.com/mrdouglasmorais/desafio-abs)
 
 ## yarn start
-Enviar no modo desenvolvimento.
+Inicia aplicação no modo desenvolvimento.
 
 Para acessar local [http://localhost:3000 ](http://localhost:3000 )para visualizar no navegador.
 
@@ -19,7 +20,10 @@ Ambiente de homologação
 [https://desafio-abs.netlify.com](https://desafio-abs.netlify.com)
 
 ## dependências:
-styled components
+react bootstrap
+
+## estilização:
+Scss
 
 
 Por Douglas Morais
