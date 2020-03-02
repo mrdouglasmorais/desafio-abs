@@ -12,10 +12,10 @@ function sectionOne() {
   return (
     <>
     <div className="section-one">
-    <Container xm={12} className="section-one--container">
+    <Container xs={12} xm={12} className="section-one--container">
       <h1>O que você vai encontrar no startup on?</h1>
       <Row>
-        <Col xm={3}>
+        <Col xs={6} xm={3} className="section-one--container">
           <Image 
             src={IconPalestras}
             alt=''
@@ -25,7 +25,7 @@ function sectionOne() {
           <p>O objetivo é colocar você diante de fundadores de startups e aprender com experiências reais</p>
         </Col>
 
-        <Col xm={3}>
+        <Col xs={6} xm={3}>
           <Image 
             src={IconPalestras}
             alt=''
@@ -35,7 +35,7 @@ function sectionOne() {
           <p>Uma tarde para você ter rodadas de mentorias com especialistas em</p>
         </Col>
 
-        <Col xm={3} >
+        <Col xs={6} xm={3} >
           <Image 
             src={IconPalestras}
             alt=''
@@ -45,7 +45,7 @@ function sectionOne() {
           <p>Para ir além empreendedores devem estar bem conectados. Conheça e faça parte da rede ABStartups.</p>
         </Col>
 
-        <Col xm={3}>
+        <Col xs={6} xm={3}>
           <Image 
             src={IconPalestras}
             alt=''
@@ -57,7 +57,7 @@ function sectionOne() {
       </Row>
       <Row>
       <Col sm></Col>
-      <Col sm><Button variant="outline-light" size="lg">Próximas Edições</Button>{' '}</Col>
+      <Col xs={12} sm><Button variant="outline-light" size="lg">Próximas Edições</Button>{' '}</Col>
       <Col sm></Col>
       </Row>
  

@@ -18,6 +18,12 @@ body {
   padding: .5rem 2rem;
 }
 
+.nav-link {
+  padding-top: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-left: 2.5rem !important;
+}
+
 .bg-light {
   background-color: rgba(255, 255, 255, 0) !important;
 }
@@ -66,6 +72,24 @@ body {
   }
 }
 
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 .section-one{
   background-image: url(../img/infinite-bg1.png);
@@ -75,8 +99,14 @@ body {
   width: 100%;
   height: 92vh;
 
+  animation: fadeInAnimation ease 5s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+
   .section-one--container{
     vertical-align: middle;
+    opacity: 1; 
+    animation: 3s fadein ease-in; 
   }
 
   img {
@@ -89,6 +119,7 @@ body {
   h1 {
     text-align: center;
     color: white;
+    text-transform: uppercase;
   }
   
   h4, p {
@@ -112,15 +143,83 @@ body {
   }
 }
 
+.section-two {
+  margin-top: 40px;
+  color: #33c64b;
+
+  h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
 .footer-content {
   background: $footerColor;
   color: white;
   text-align: left;
+  padding: 0 3.5em;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+  .footer-links{
+    color: white;
+    font-family: $fontPrimary;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0rem !important;
+
+    & :hover {
+      color: #c6c6c6
+    }
+  }
+
+  .footer-line--divisor{
+    border-top: 3px solid white;
+    width: 100%;
+    margin: 15px;
+  }
+
+  .footer-links--divisor {
+    border-top: 1px solid white;
+    margin-bottom: 9px;
+    width: 100%;
+  }
+
+  .btn-group {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    width: 100%;
+  }
 
   p {
     padding: 0.5em;
     margin-bottom: 0rem;
     font-size: 13px;
+  }
+
+  h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17.5px;
+  }
+
+  img{
+    margin-top: 20px;
+  }
+
+  input {
+    border-radius: 0px;
+  }
+
+  button {
+    background: #fd8751;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 0px;
+  }
+  button :hover {
+    background: #9e5230;
   }
 }
 
@@ -140,6 +239,23 @@ body {
     h5 {
       font-size: 14px;
     }
+  }
+
+  .section-one {
+    background-size: 100% 165vh;
+    padding-top: 52%;
+    height: 165vh;
+  }
+
+  .footer-content {
+    p {
+      text-align: center;
+    }
+  }
+
+  .footer-copyright{
+    display: flex;
+    flex-direction: column-reverse;
   }
 
 
