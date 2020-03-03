@@ -1,9 +1,12 @@
 import React from 'react';
 
 import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import Image from  'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from  'react-bootstrap/Image';
+import bmg from '../img/parthners.png'
+import abdi from '../img/abdi.png'
+import baptistaluiz from '../img/baptistaluiz.png'
 // import Button from  'react-bootstrap/Button';
 
 
@@ -11,9 +14,35 @@ import Container from 'react-bootstrap/Container';
 function sectionFive() {
   return (
     <>
-      <Container>
-        <h1>Mantenedores</h1>
-      </Container>
+      <section id="parcerias" className="section-five">
+        <Container>
+          <h1>Conheça os nosso mantenedores!</h1>
+          <Row>
+            <Col xs={12} md={12}>
+              <Image src={abdi} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={baptistaluiz} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+            </Col>
+
+            <Col xs={12} md={12}>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+            </Col>
+          </Row>
+
+        </Container>
+      </section>
     </>
   );
 }

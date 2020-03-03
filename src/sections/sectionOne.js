@@ -11,11 +11,12 @@ import IconPalestras from '../img/pal_icon.png';
 function sectionOne() {
   return (
     <>
+    <section id="sobre">
     <div className="section-one">
-    <Container xs={12} xm={12} className="section-one--container">
+    <Container xs={12} xm={12} lg={12} xl={12} className="section-one--container">
       <h1>O que você vai encontrar no startup on?</h1>
       <Row>
-        <Col xs={6} xm={3} className="section-one--container">
+        <Col xs={6} xm={3} lg={3} xl={3} className="section-one--container">
           <Image 
             src={IconPalestras}
             alt=''
@@ -25,7 +26,7 @@ function sectionOne() {
           <p>O objetivo é colocar você diante de fundadores de startups e aprender com experiências reais</p>
         </Col>
 
-        <Col xs={6} xm={3}>
+        <Col xs={6} xm={3} lg={3} xl={3}>
           <Image 
             src={IconPalestras}
             alt=''
@@ -35,7 +36,7 @@ function sectionOne() {
           <p>Uma tarde para você ter rodadas de mentorias com especialistas em</p>
         </Col>
 
-        <Col xs={6} xm={3} >
+        <Col xs={6} xm={3} lg={3} xl={3}>
           <Image 
             src={IconPalestras}
             alt=''
@@ -45,7 +46,7 @@ function sectionOne() {
           <p>Para ir além empreendedores devem estar bem conectados. Conheça e faça parte da rede ABStartups.</p>
         </Col>
 
-        <Col xs={6} xm={3}>
+        <Col xs={6} xm={3} lg={3} xl={3}>
           <Image 
             src={IconPalestras}
             alt=''
@@ -57,13 +58,14 @@ function sectionOne() {
       </Row>
       <Row>
       <Col sm></Col>
-      <Col xs={12} sm><Button variant="outline-light" size="lg">Próximas Edições</Button>{' '}</Col>
+      <Col xs={4} xm={4} lg={4} xl={4}><Button variant="outline-light" size="lg">Próximas Edições</Button>{' '}</Col>
       <Col sm></Col>
       </Row>
  
     </Container>
 
     </div>
+    </section>
     </>
   );
 }

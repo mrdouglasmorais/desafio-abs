@@ -24,19 +24,19 @@ function NavbarSPA() {
 
         <Nav>
 
-          <Nav.Link href="#">
+          <Nav.Link href="#sobre">
             Sobre
           </Nav.Link>
 
-          <Nav.Link href="#">
+          <Nav.Link href="#parcerias">
             Parcerias
           </Nav.Link>
 
-          <Nav.Link href="#">
+          <Nav.Link href="#proximasedicoes">
             Próx Edições
           </Nav.Link>
 
-          <Nav.Link href="#">
+          <Nav.Link href="#faleconosco">
             Faleconosco
           </Nav.Link>
 

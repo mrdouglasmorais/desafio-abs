@@ -10,6 +10,10 @@ body {
   font-family: -apple-system, $fontPrimary;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: white !important;
+}
+h1, h2, h3, h4 {
+  color: $colorPrimary;
 }
 
 
@@ -143,13 +147,150 @@ body {
   }
 }
 
+.section-next--editions{
+  background: white;
+
+  h1{
+    margin-bottom: 40px;
+    color: #33c64b;
+  }
+
+  .caroussel-style{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .react-3d-carousel .slider-container {
+    position: absolute;
+    margin: auto !important;
+    top: 0;
+    width: 48%;
+    margin: -0px auto 0px -0;
+  }
+  .react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 95% !important;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+    transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  .react-3d-carousel .slider-container .slider-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 71%;
+    height: 80%;
+    transform: translateX(-50%);
+  }
+  .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 90px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+  }
+}
 .section-two {
   margin-top: 40px;
-  color: #33c64b;
+
+  .yellow-divisor{
+    border-top: 3px solid #ffec41;
+    width: 100%;
+    margin: 15px;
+  }
 
   h1 {
     font-weight: 600;
+    font-size: 35px;
     text-transform: uppercase;
+    color: #33c64b;
+  }
+
+  button {
+    color: #33c64b;
+    border-radius: 100px;
+    border-color: #33c64b;
+    width: 100%;
+    font-weight: 600;
+    margin: 40px;
+  }
+}
+
+
+.section-three{
+
+  .left-text{
+    margin-top: 20px;
+    padding-right: 15% !important;
+  }
+
+  .carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px !important;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: #b9b9b9;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+  }
+  .carousel-caption {
+    position: initial;
+    padding-top: 10px;
+    padding-bottom: 65px;
+  }
+
+  h1 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: $colorPrimary;
+    font-weight: 600;
+  }
+
+  p {
+    color: $colorPrimary;
+  }
+}
+.section-four{
+  background-image: url(../img/infinite-bg2.png);
+  background-size: 100% 92vh;
+  background-repeat: no-repeat;
+  padding-top: 12%;
+  width: 100%;
+  height: 92vh;
+}
+
+.section-five{
+  background: #f6f6f6;
+
+  .brand-section{
+    mix-blend-mode: multiply;
+  }
+
+  h1{
+    color: $footerColor;
+    padding-top: 60px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
   }
 }
 
