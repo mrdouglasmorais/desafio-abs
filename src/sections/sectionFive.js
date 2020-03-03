@@ -18,26 +18,26 @@ function sectionFive() {
         <Container>
           <h1>Conheça os nosso mantenedores!</h1>
           <Row>
-            <Col xs={12} md={12}>
-              <Image src={abdi} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={baptistaluiz} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+            <Col xs={12} md={12} className="brand-list">
+              <Image src={abdi} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={baptistaluiz} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
             </Col>
 
-            <Col xs={12} md={12}>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
-              <Image src={bmg} width="120px" alt="info" className="brand-section"/>
+            <Col xs={12} md={12} className="brand-list">
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
+              <Image src={bmg} width="130px" alt="info" className="brand-section"/>
             </Col>
           </Row>
 
