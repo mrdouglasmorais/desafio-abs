@@ -284,6 +284,28 @@ h1, h2, h3, h4 {
     font-size: 14px;
   }
 }
+
+.complement-infos--section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .text-complement{
+    h1 {
+      text-align: center;
+      font-weight: 600;
+      color: #33c64b;
+      font-size: 60px;
+    }
+    h4 {
+      text-align: center;
+      font-weight: 600;
+      color: $colorPrimary;
+      font-size: 18px;
+    }
+  }
+
+}
+
+
 .section-four{
   padding: 0 3.5em;
   background-image: url(../img/infinite-bg2.png);
@@ -525,7 +547,7 @@ h1, h2, h3, h4 {
       flex-wrap: wrap;
       margin-right: 0px;
       margin-left: 0px;
-  }
+    }
   }
 
   .carousel-page{
@@ -629,6 +651,36 @@ h1, h2, h3, h4 {
       padding-right: 25%;
     }
   }
+
+  .section-call-action{
+    .call-action{
+      font-size: 32px;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+  }
+
+  .section-five{
+    background: #f6f6f6;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  
+    .brand-list{
+      display: contents;
+      justify-content: center;
+    }
+
+  }
+
 }
 
 @media (min-width: 1400px) {

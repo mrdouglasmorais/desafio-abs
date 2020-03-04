@@ -77,6 +77,22 @@ function sectionThree() {
           </Col>
         </Row>
       </Container>
+      <Container className="complement-infos--section">
+        <Row>
+          <Col className="text-complement" xs={12} xm={4} lg={4} xl={4}>
+            <h1>34</h1>
+            <h4>Edições realizadas</h4>
+          </Col>
+          <Col className="text-complement" xs={12} xm={4} lg={4} xl={4}>
+            <h1>536</h1>
+            <h4>Horas de mentoria</h4>
+          </Col>
+          <Col className="text-complement" xs={12} xm={4} lg={4} xl={4}>
+            <h1>4256</h1>
+            <h4>Partipantes</h4>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }
