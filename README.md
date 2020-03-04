@@ -3,6 +3,10 @@ Associação Brasileira de Startups
 REACTJS 16.13.0
 Gerenciador de pacotes YARN.
 
+# MODELO RESPONSIVO
+
+<img src="src/img/label.png" width="100%" height="auto"/>
+
 Para baixar o conteudo do projeto
 [https://github.com/mrdouglasmorais/desafio-abs](https://github.com/mrdouglasmorais/desafio-abs)
 
@@ -20,10 +24,17 @@ Ambiente de homologação
 [https://desafio-abs.netlify.com](https://desafio-abs.netlify.com)
 
 ## dependências:
-react bootstrap
+react
+react-dom
+react-scripts
+react-bootstrap
+node-sass
+fortawesome
+react-spring-3d-carousel
+uuid
 
 ## estilização:
-Scss
+Sass - scss
 
 
 Por Douglas Morais

@@ -1,12 +1,12 @@
 import React from 'react';
 
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 import Button from  'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import SlideMock from '../img/slide-mock.png';
+import CarousselSPA from '../components/carousel'
+
 
 
 
@@ -17,13 +17,10 @@ function sectionTwo() {
       <section id="proximasedicoes" className="section-next--editions">
         <Container className="section-two">
           <h1>Próximas Edições</h1>
+          <CarousselSPA />
 
-          <Image src={SlideMock} width="100%" heigth="auto" alt="slide mock"/>
-
-          <Row>
-            <Col sm={3}></Col>
-            <Col xs={6} xm={6} lg={6} xl={6}><Button variant="outline-light" size="lg">Veja as edições anteriores</Button>{' '}</Col>
-            <Col sm={3}></Col>
+          <Row className="next-editionsbutton">        
+            <Col  xs={12} xm={12} lg={12} xl={12}><Button variant="outline-light" size="lg">Veja as edições anteriores</Button>{' '}</Col>
           </Row>
           <div className="yellow-divisor"></div>
         </Container>

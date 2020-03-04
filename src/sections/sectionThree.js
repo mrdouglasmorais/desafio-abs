@@ -24,14 +24,21 @@ function sectionThree() {
             de atividades divididas entre palestras, paineis sessões de mentoria e happy hour.
           </p>
           <p>
-            É um formato de evento criado para fortalescer startups e suas comunidades 
-            trabalhando lideranças, exemplo em networking. Consiste de um dia inteiro 
-            de atividades divididas entre palestras, paineis sessões de mentoria e happy hour.
+            O evento possui a duração de um dia e é itinerante, podendo
+            ser promovido por qualquer agentedo ecosistema, em
+            qualquer cidade do Brasil, desde que aprovado
+            previamente pela Abstartups.
           </p>
           <p>
-            É um formato de evento criado para fortalescer startups e suas comunidades 
-            trabalhando lideranças, exemplo em networking. Consiste de um dia inteiro 
-            de atividades divididas entre palestras, paineis sessões de mentoria e happy hour.
+            Sabemos das dores que todos os empreendedores passam no dia a dia para
+            conduzir seu negócio. As dores vão desde a necessidade vão de um conteúdo
+            de qualidade a necessidade de interação com outros empreendedores do mesmo
+            nível para trocar experiências.
+          </p>
+          <p>
+            Pensando nisso o StartupON nasceu para fortalescer
+            startups e suas comunidades trabalhando lideranças,
+            exemplos e networking.
           </p>
           </Col>
           <Col xs={12} xm={5} lg={5} xl={5}>

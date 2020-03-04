@@ -6,7 +6,14 @@ import Col from 'react-bootstrap/Col';
 import Image from  'react-bootstrap/Image';
 import Button from  'react-bootstrap/Button';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
+
+
 import IconPalestras from '../img/pal_icon.png';
+import IconMentorias from '../img/mentorias.png';
+import IconConexoes from '../img/conexoes.png';
+import IconComunidade from '../img/comunidade.png';
 
 function sectionOne() {
   return (
@@ -28,7 +35,7 @@ function sectionOne() {
 
         <Col xs={6} xm={3} lg={3} xl={3}>
           <Image 
-            src={IconPalestras}
+            src={IconMentorias}
             alt=''
             fluid
           />
@@ -38,7 +45,7 @@ function sectionOne() {
 
         <Col xs={6} xm={3} lg={3} xl={3}>
           <Image 
-            src={IconPalestras}
+            src={IconConexoes}
             alt=''
             fluid
           />
@@ -48,7 +55,7 @@ function sectionOne() {
 
         <Col xs={6} xm={3} lg={3} xl={3}>
           <Image 
-            src={IconPalestras}
+            src={IconComunidade}
             alt=''
             fluid
           />
@@ -58,7 +65,7 @@ function sectionOne() {
       </Row>
       <Row>
       <Col sm></Col>
-      <Col xs={4} xm={4} lg={4} xl={4}><Button variant="outline-light" size="lg">Próximas Edições</Button>{' '}</Col>
+      <Col xs={12} xm={4} lg={4} xl={4}><Button variant="outline-light" size="lg">Próximas Edições <FontAwesomeIcon icon={faAngleDoubleDown} /> </Button>{' '}</Col> <i class="fas fahevron-double-down"></i>
       <Col sm></Col>
       </Row>
  
